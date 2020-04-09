@@ -24,7 +24,7 @@ class Dashboard extends React.Component {
     }
   }
 
-  handleSlider = (event, value) => {
+  handleSlider = (_, value) => {
     this.setState({ volume: value})
     if(value > 80) {
       this.setState({ 
